@@ -5,7 +5,7 @@ ARG STEAM_BRANCH
 ARG STEAM_PASSWORD
 
 # Create installation image.
-FROM yeetzone/steamcmd:next as STEAMCMD
+FROM yeetzone/steamcmd as STEAMCMD
 
 # Set environment.
 ARG STEAM_APP
