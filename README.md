@@ -1,4 +1,4 @@
-# Don't Starve Together, Data
+# Don't Starve Together `DATA` 
 > Dockerfile for building a [`Don't Starve Together`][website] dedicated server image.
 
 ---
