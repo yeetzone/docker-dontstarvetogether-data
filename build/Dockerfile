@@ -20,7 +20,7 @@ ENV STEAM_PASSWORD ${STEAM_PASSWORD}
 # Install Don't Starve Together.
 RUN set -ex \
 	&& mkdir -p $STEAM_PATH \
-    && chown $STEAM_USER:$STEAM_USER $STEAM_PATH \
+	&& chown $STEAM_USER:$STEAM_USER $STEAM_PATH \
 	&& gosu "$STEAM_USER" steamcmd \
 		+@ShutdownOnFailedCommand 1 \
 		+login anonymous \
