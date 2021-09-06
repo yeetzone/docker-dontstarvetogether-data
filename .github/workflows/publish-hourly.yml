@@ -18,6 +18,6 @@ jobs:
         name: publish
         uses: docker/build-push-action@v2
         with:
-          context: /build/
+          context: ./build/
           push: true
           tags: yeetzone/dontstarvetogether-data:latest
